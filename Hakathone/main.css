@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container{
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.left-section{
+    background-color: #0d4084;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: left;
+    border-right: 5px solid white;
+}
+.data{
+    margin-left: 10%;
+}
+
+.profile-pic{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.name{
+    text-align: center;
+}
+.left-h2 {
+    border-radius: 10px;
+    box-shadow: 0 0 15px white;
+    padding: 2%;
+    margin: 20px 0 10px;
+    
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px;
+
+}
+.para{
+    margin-top: 0px;
+}
+h1{
+    font-size: 34px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.right-section{
+    padding: 20px;
+    width: 65%;
+}
+ul {
+    list-style-type: fill square;
+    padding: 10;
+    margin: 10px 0;
+}
+ul li {
+    margin: 5px 0;
+    font-size: 20px;
+}
+.right-h2{
+    padding: 2%;
+    margin: 20px 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0d4084;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0d4084;
+    border-color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #0d4084;
+    color: white;
+}
